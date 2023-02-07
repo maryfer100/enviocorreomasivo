@@ -1,0 +1,24 @@
+{"properties": [
+  {
+    "name": "administracion.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'administracion.datasource.url'"
+  },
+  {
+    "name": "correomicro.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'correomicro.datasource.url'"
+  }
+]} "type": "java.lang.String",
+    "description": "A description for 'administracion.datasource.password'"
+  }
+]} "type": "java.lang.String",
+    "description": "A description for 'administracion.datasource.password'"
+  }
+]} "type": "java.lang.String",
+    "description": "A description for 'administracion.datasource.username'"
+  }
+]} "type": "java.lang.String",
+    "description": "A description for 'correomicro.datasource.url'"
+  }
+]}
