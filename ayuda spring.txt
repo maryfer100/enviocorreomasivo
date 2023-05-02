@@ -1,0 +1,12 @@
+cambiar funcion para que retorne un valor e inserte solo en tbempleados y que retorne un integer 1 ->listo
+postman investigar java.util.list parametro
+implementar en AngulaR llamado
+si recibe 1 el servicio de aungular,llamar el findall de tbempleados y mostrar en el datgrid
+
+probar sin dialogo directo boton la funcion del memo
+
+investifar vcomo hacer desde dialogo btn
+
+
+
+Checar la logica del dialog en spring
