@@ -1,26 +1,25 @@
 package com.coppel.enviocorreomasivo.entities;
 
-import lombok.Data;
-import org.w3c.dom.Text;
+        import lombok.Data;
+        import org.w3c.dom.Text;
 
-import javax.persistence.*;
-
+        import javax.persistence.*;
 @Entity
 @Data
 @Table(name = "cmimemorandums")
 public class Memorandum
 {
-   
+
     @Column(name="foliocentro")
     private Integer foliocentro;
 
-   
+
     @Column(name="empleadoorigen")
     private Integer empleadoorigen;
 
     @Column(name="centroorigen")
     private Integer centroorigen;
-    
+
     @Id
     @Column(name="foliomemorandum")
     private Integer foliomemorandum;
