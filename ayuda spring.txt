@@ -9,4 +9,4 @@ investifar vcomo hacer desde dialogo btn
 
 
 
-Checar la logica del dialog en spring
+Checar la logica del dialog en spring.agregar servicio
