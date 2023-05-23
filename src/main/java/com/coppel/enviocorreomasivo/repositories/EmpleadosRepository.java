@@ -11,7 +11,7 @@ import com.coppel.enviocorreomasivo.entities.Empleados;
 
 public interface EmpleadosRepository extends JpaRepository<Empleados, List<Integer>> {
     @Query(value="SELECT  * FROM FnInfoEmpleados(?1);", nativeQuery = true)
-    List<Empleados> getInfoEmpleados(List<Integer> aEmpleados);
+    Integer getInfoEmpleados(List<Integer> aEmpleados);
     
     //@Query(value="SELECT  * FROM FnInfoEmpleados(:aEmpleados);", nativeQuery = true)
     //List<Empleados> getInfoEmpleados(List<Integer> aEmpleados);

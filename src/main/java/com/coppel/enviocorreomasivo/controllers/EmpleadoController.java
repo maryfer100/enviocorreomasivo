@@ -20,7 +20,7 @@ public class EmpleadoController {
     EmpleadosService empleadosService;
 
     @GetMapping("info")
-     public List<Empleados> ObtenerInfoEmpleados(List<Integer> aEmpleados){
+     public Integer ObtenerInfoEmpleados(List<Integer> aEmpleados){
         return empleadosService.getInfoEmpleados(aEmpleados); 
     }
 }
