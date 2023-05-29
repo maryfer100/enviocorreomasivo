@@ -21,5 +21,4 @@ public class LoginController {
     public Integer getUser(@RequestParam Integer numemp, String passw){
         return loginService.getEmpleado(numemp, passw);
     }
-
 }

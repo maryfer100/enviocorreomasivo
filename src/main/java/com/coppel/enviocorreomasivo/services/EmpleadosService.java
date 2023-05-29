@@ -14,7 +14,7 @@ public class EmpleadosService {
     @Autowired
     EmpleadosRepository empleadosRepository;
 
-    public List<Empleados> getInfoEmpleados(List<Integer> aEmpleados)
+    public Integer getInfoEmpleados(List<Integer> aEmpleados)
     {
             return empleadosRepository.getInfoEmpleados(aEmpleados);
     }
